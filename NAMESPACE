@@ -13,3 +13,6 @@ S3method(coef, poLCA)
 S3method(vcov, poLCA)
 
 useDynLib(poLCA)
+
+importFrom(MASS, ginv)
+importFrom(scatterplot3d, scatterplot3d)
